@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 public class PmsBrand {
     private long id;
     private String name;
-    @ApiModelProperty("")
+    @ApiModelProperty("First Letter ")
     private String firstLetter;
 
 }

@@ -5,6 +5,7 @@ import jakarta.validation.ConstraintValidatorContext;
 
 public class FlagValidatorClass implements ConstraintValidator<FlagValidator, Integer> {
     private String[] values;
+    private String  message;
 
     @Override
     public void initialize(FlagValidator constraintAnnotation) {
